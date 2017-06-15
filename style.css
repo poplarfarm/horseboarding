@@ -79,3 +79,9 @@ object {
     border-width: 2px;
     border-color: lightgrey;
 }
+img {
+    height: 50%;
+    width: 40%;
+    display:block;
+    margin: auto;
+}
