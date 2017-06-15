@@ -1,0 +1,81 @@
+/* Sticky footer styles
+ -------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height
+    margin-bottom: 200px;*/
+    background-color: #f9ecdb
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: wrap;
+    background-color: #c6b8a3;
+    padding-left: 10px;
+    border-top: 2px solid black;
+}
+.footer span {
+    float: left;
+}
+.footer .glyphicon {
+    margin-right: 10px;
+}
+footer p p {
+    margin-left: 5px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #c6b8a3;
+    box-shadow: 5px 5px 5px grey;
+}
+.tab-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-top: 2px solid grey;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-tabs{
+    margin-left: 3px;
+    border-bottom: none;
+}
+.nav-tabs a {
+    color: black;
+}
+.jumbotron {
+    background-image: url(PageHeader.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px grey;
+}
+.jumbotron h1, .jumbotron p {
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.tab-content h1 {
+    border-bottom: 5px solid grey;
+}
+.btn-group {
+    margin-top: 15px;
+}
+object {
+    box-shadow: 5px 5px 5px grey;
+}
+.table {
+    border-style: hidden hidden solid;
+    border-width: 2px;
+    border-color: lightgrey;
+}

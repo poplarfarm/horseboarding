@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kira's Horse Boarding</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body id="body">
+        
+        <!-- Page Header --->
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h1>Kira's Horse Boarding</h1>
+                <p>Located at 4590 S Martinsburg Rd</p>
+            </div>
+        </div>
+        
+        <!-- Navbar and Info -->
+        <div class="container-fluid content">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                <li><a data-toggle="tab" href="#pricing">Pricing</a></li>
+                <li><a data-toggle="tab" href="#boarding">Boarding Info</a></li>
+            </ul>
+        
+            <div class="tab-content">
+                
+                <!-- Home Content -->
+                <div id="home" class="tab-pane fade in active">
+                    <h1>HOME</h1>
+                    <h3>About Me</h3>
+                    <p>My name is Kira Asher. I've owned horses for as long as I can remember. I got my first horse when I was four years old and they've been a passion of mine ever since. I've worked with Western disciplined horses for ten years and English for six. I've had training, working, and boarding experience with everything from Clydesdales, to miniature ponies, to Thoroughbreds with foals at their sides.</p>
+                    <h3>Mission Statement</h3>
+                    <p>I know that having horses can be difficult if you don't have the space or the utilities necessary to keep them healthy. They're a super expensive hobby/lifestyle so I'm here to make sure you can keep your four-legged kids happy while not breaking the bank.</p>
+                </div>
+                <!-- Pricing Info -->
+                <div id="pricing" class="tab-pane fade">
+                    <h1>PRICING</h1>
+                    <h3>Pasture</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Number of Horses</th>
+                                <th>Price per Month</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>$200</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>$350</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>$450</td>
+                            </tr>
+                            <tr>
+                                <td>More than 3</td>
+                                <td>Add $100 per horse</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>Stalls</h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Number of Horses</th>
+                                <th>Price per Month</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>$300</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>$550</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>$750</td>
+                            </tr>
+                            <tr>
+                                <td>More than 3</td>
+                                <td>Add $200 per horse</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Boarding Info -->
+                <div id="boarding" class="tab-pane fade">
+                    <h1>BOARDING INFO</h1>
+                    <h3>What to Bring</h3>
+                    <p>A record will be kept of what belongs to whom</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Supply Halter and Lead</li>
+                        <li class="list-group-item">Shot Record and Vet Phone #</li>
+                        <li class="list-group-item">Copy of Driver's License</li>
+                        <li class="list-group-item">Two Contact Phone #'s</li>
+                        <li class="list-group-item">Info on Horse (crib, bite, needs meds)</li>
+                        <li class="list-group-item">Name Card - Horse, Owner, Contact # (For each stall)</li>
+                    </ul>
+                    <h3>Boarding Agreement</h3>
+                    <object data="BoardingAgreement.pdf" type="application/pdf" width="100%" height="800px">
+                        <p>It appears you don't have a PDF plugin for this browser.
+                        <a href="BoardingAgreement.pdf">Click here to
+                            download the PDF file.</a></p>
+                    </object>
+                    <div class="btn-group">
+                        <a href="BoardingAgreement.pdf" download><button type="button" class="btn btn-primary"><span>Download Boarding Agreement </span><span class="glyphicon glyphicon-download"></span></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer" id="footer">
+            <h3>Contact Me</h3>
+            <p><span class="glyphicon glyphicon-earphone"></span><p>(812) 786-6049</p></p>
+            <p><span class="glyphicon glyphicon-envelope"></span><p>kiraasher426@gmail.com</p></p>
+            <p><span class="glyphicon glyphicon-home"></span><p>4590 S Martinsburg Rd</p></p>
+        </footer>
+        
+        <script>
+            function setBottomMargin() {
+                return String(document.getElementById("footer").offsetHeight + 30);
+            }
+            document.getElementById("body").style.marginBottom = setBottomMargin() + "px";
+        </script>
+        
+    </body>
+</html>
