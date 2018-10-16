@@ -85,3 +85,11 @@ img {
     display:block;
     margin: auto;
 }
+#myCarousel {
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+.carousel img {
+    
+    max-height: 300px;
+}
